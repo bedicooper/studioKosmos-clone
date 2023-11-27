@@ -1,11 +1,12 @@
 import Navigation from "./Navigation";
 import { Wrapper, StyledImageNavLink } from "./styled";
+import Logo from "./Logo";
 
 export default () => {
   return (
     <Wrapper>
-      <StyledImageNavLink to="">logo</StyledImageNavLink>
-      <Navigation/>
+      <StyledImageNavLink to=""><Logo /></StyledImageNavLink>
+      <Navigation />
     </Wrapper>
   );
 };
