@@ -8,13 +8,15 @@ export default () => (
             {`Hi! My name is `}
             <Link 
                 href="https://github.com/bedicooper"
+                target="blank"
+                rel="noopener noreferrer"
             >
                 Mateusz Bednarz
             </Link>
             {`. Thanks for stopping by!`}
         </StyledParagraph>
         <StyledParagraph>
-            {`I'm currently studing to become Frontend Developer. 
+            {`I'm currently studying to become a Frontend Developer. 
               I have created this mockup of `
             }
             <Link 
@@ -25,8 +27,8 @@ export default () => (
                 studiokosmos.pl
             </Link>
             {` for practice
-              and as a showcase of my skillset.
-              I tried to reproduce as much form original site as possible,
+              and as a showcase of my skill set.
+              I tried to reproduce as much from original site as possible, 
               though not all original features are implemented yet.`
             }
         </StyledParagraph>
