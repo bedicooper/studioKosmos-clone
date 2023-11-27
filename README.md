@@ -16,7 +16,7 @@ _Newest additions are in **bold**_
 | :---:         | :---:           | :---:               | :---:            |
 | Google Fonts  | Normalize CSS   | ES6+                | create-react-app |
 |               | flex            |                     | Webpack          |
-|               |                 |                     | Babel            |
+|               | **media queries** |                   | Babel            |
 |               |                 |                     | React DOM        |
 |               |                 |                     | Styled Components|
 |               |                 |                     | **useState hook**|
@@ -27,7 +27,10 @@ I'm practicing my dev skills  by building a clone of real website. Well, maybe j
 
 I've deciced to start the clone without Redux and Saga, maybe I will use them in future, more extensive versions. 
 
-### What's new? _v.0.1.0_
+### What's new? _v.0.1.1_
+**0.1.1.**
+Added media queries for screens narrower than 767px.
+
 **0.1.0:**
 Home Page and "About me" page implemented with react-router.
 Navigation is, for the time being, just an inactive list. Due to change in next app revision!

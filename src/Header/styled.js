@@ -14,6 +14,15 @@ export const Wrapper = styled.header`
     &::-webkit-scrollbar {
     display: none; 
     }
+
+    @media (max-width: 767px) {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        position: relative;
+        top: inherit;
+        left: inherit;
+    }
 `
 export const StyledImageNavLink = styled(NavLink)`
     display: block;

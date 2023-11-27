@@ -1,8 +1,8 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Wrapper = styled.ul`   
     display: block;
-    width: 220px;
+    width: 100%;
     margin: 0 0 48px 0;
     padding: 0;
     color: #999;
@@ -10,6 +10,22 @@ export const Wrapper = styled.ul`
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+`
+
+export const MenuButton = styled.button`
+    display: none;
+    height: 41px;
+    width: 100%;
+    padding: 0;
+    color: #aaa;
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+
+    @media (max-width: 767px) {
+       display: block;
+    }
 `
 
 export const StyledItem = styled.li`
@@ -30,7 +46,7 @@ export const Button = styled.button`
     border: none;
     background: none;
 
-    ${({ expanded }) => expanded && `
+    ${({ $expand }) => $expand && `
         transform: rotate(180deg)
     `};
 `
