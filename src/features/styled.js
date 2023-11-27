@@ -21,12 +21,12 @@ export const StyledParagraph = styled.p`
 `
 
 export const Link = styled.a`
-    color: #000;
+    color: #111;
     text-decoration: none;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #111;
 
     &:hover{
-        filter: brightness(150%);
+        filter: brightness(400%);
     }
 `
 
