@@ -1,0 +1,15 @@
+{
+  "short_name": "clone of studioKosmos.pl",
+  "name": "This is a clone of part of the original website.",
+  "icons": [
+     {
+      "src": "icon192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+    ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
