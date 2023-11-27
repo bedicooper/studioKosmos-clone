@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/studioKosmos-clone/static/js/main.ec0c0a6a.js",
+    "main.js": "/studioKosmos-clone/static/js/main.553008ce.js",
     "static/js/787.97762411.chunk.js": "/studioKosmos-clone/static/js/787.97762411.chunk.js",
     "static/media/0-mbednarz.jpg": "/studioKosmos-clone/static/media/0-mbednarz.654d0f03ee4855c939c2.jpg",
     "static/media/jur_main.jpg": "/studioKosmos-clone/static/media/jur_main.9d5f8fa1f0577d8b8e6e.jpg",
     "static/media/kosmos-logo.png": "/studioKosmos-clone/static/media/kosmos-logo.bf0cfe6869d4e95bc1e0.png",
     "index.html": "/studioKosmos-clone/index.html",
-    "main.ec0c0a6a.js.map": "/studioKosmos-clone/static/js/main.ec0c0a6a.js.map",
+    "main.553008ce.js.map": "/studioKosmos-clone/static/js/main.553008ce.js.map",
     "787.97762411.chunk.js.map": "/studioKosmos-clone/static/js/787.97762411.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.ec0c0a6a.js"
+    "static/js/main.553008ce.js"
   ]
 }
