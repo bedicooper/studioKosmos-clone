@@ -6,13 +6,18 @@ export const Wrapper = styled.header`
     padding-right: 40px;
     position: fixed;
     top: 72px;
-    left: 60px;
+    left: 40px;
     max-height: 100%;
     overflow: auto;
     overflow-x: hidden;
 
     &::-webkit-scrollbar {
     display: none; 
+    }
+
+    @media (min-width: 1025px) {
+        position: fixed;
+        left: 60px;
     }
 
     @media (max-width: 767px) {

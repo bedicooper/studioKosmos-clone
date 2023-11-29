@@ -16,8 +16,8 @@ export const StyledParagraph = styled.p`
     display: block;
     margin: 0 0 22.5px 0;
     color: rgb(49, 49, 49);
-    font-size: 15px;
-    line-height: 22.5px;
+    font-size: 16px;
+    line-height: 24px;
 `
 
 export const Link = styled.a`
