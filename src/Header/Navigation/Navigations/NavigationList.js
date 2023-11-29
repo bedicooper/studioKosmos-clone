@@ -1,6 +1,7 @@
-import { Button, ExpandedItem, ExpandedList, StyledItem } from "../styled";
+import { Button, ExpandedItem, ExpandedList, StyledItem, StyledNavLink } from "../styled";
 import ChevronDownIcon from "./ChevronDownIcon";
 import { useCollapsableNavigation } from "./useCollapsableNavigation";
+import { toAbout, toContact } from "../../../routes";
 
 export default () => {
 
@@ -27,8 +28,8 @@ export default () => {
                     <ExpandedItem>— wnętrza komercyjne</ExpandedItem>
                 </ExpandedList>}
             <StyledItem>nagrody/publikacje</StyledItem>
-            <StyledItem>o nas</StyledItem>
-            <StyledItem>kontakt</StyledItem>
+            <StyledItem><StyledNavLink to={toAbout()}>o nas</StyledNavLink></StyledItem>
+            <StyledItem><StyledNavLink to={toContact()}>kontakt</StyledNavLink></StyledItem>
         </>
     )
 }

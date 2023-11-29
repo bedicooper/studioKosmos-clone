@@ -3,8 +3,10 @@ import Header from './Header';
 import Footer from './Footer';
 import { MainContainer } from './MainContainer';
 import { Wrapper } from './Wrapper/Wrapper';
-import { toHome, toAuthor } from './routes';
+import { toHome, toContact, toAbout, toAuthor } from './routes';
 import HomePage from './features/HomePage';
+import AboutPage from './features/AboutPage';
+import ContactPage from './features/ContactPage';
 import AuthorPage from './features/AuthorPage';
 
 function App() {
@@ -16,6 +18,12 @@ function App() {
           <Switch>
             <Route path={toHome()}>
               <HomePage />
+            </Route>
+            <Route path={toAbout()}>
+              <AboutPage />
+            </Route>
+            <Route path={toContact()}>
+              <ContactPage />
             </Route>
             <Route path={toAuthor()}>
               <AuthorPage />

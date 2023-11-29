@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { NavLink } from 'react-router-dom';
 
 export const Wrapper = styled.ul`   
     display: block;
@@ -59,4 +60,9 @@ export const ExpandedList = styled.ul`
 export const ExpandedItem = styled(StyledItem)`
     justify-content: left;
     padding-left: 16px;
+`
+
+export const StyledNavLink = styled(NavLink)`
+color: currentColor;
+    text-decoration: none;
 `
