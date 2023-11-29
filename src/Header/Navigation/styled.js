@@ -33,6 +33,7 @@ export const StyledItem = styled.li`
     justify-content: space-between;
     padding: 12px 0;
     border-top: 1px solid rgba(0,0,0,.06);
+    color: #aaa;
     text-align: left;
     text-decoration: none;
     list-style-type: none;

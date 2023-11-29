@@ -1,39 +1,21 @@
 import styled, { css } from "styled-components";
-import InstagramIcon from "./InstagramIcon";
-import FacebookIcon from "./FacebookIcon";
 
 export const Container = styled.div`
+    display: flex;
     height: 40px;
     margin-bottom: 72px;
 `
 
 export const Link = styled.a`
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     padding: 10px;
     text-decoration: none;
     background: #eee;
+    color: #888;
 
     &:hover{
         background: #888;
+        color: #eee;
     }
-`
-
-const StyledSvg = () => {
-    return css`
-        & path {
-            fill: #000;
-        }
-        &:hover path {
-            fill: azure;
-        }
-    `;
-};
-
-export const StyledFacebookIcon = styled(FacebookIcon)`
-    ${() => StyledSvg()}; 
-`
-
-export const StyledInstagramIcon = styled(InstagramIcon)`
-    ${() => StyledSvg()}; 
 `
