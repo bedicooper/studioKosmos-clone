@@ -6,7 +6,7 @@ export default () => (
         <Header>PROJEKTY/REALIZACJE</Header>
         <ProjectsWrapper>
         {projects.map(project =>
-            <Tile><TileTitle>{project.title.toUpperCase()}</TileTitle></Tile>
+            <Tile $thumbnail={project.thumbnail}><TileTitle>{project.title.toUpperCase()}</TileTitle></Tile>
         )}
         </ProjectsWrapper>
     </>

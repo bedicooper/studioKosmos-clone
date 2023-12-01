@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import urlToThumbnails from "./urlToThumbnails";
 
 export const Header = styled.h1`
     font-size: 22.4px;
@@ -20,7 +21,8 @@ export const Tile = styled.article`
     flex: 100%;
     max-width: 23%;
     aspect-ratio: 1 / 1;
-    background: #eee;
+    background: ${({ $thumbnail }) => `url('${urlToThumbnails}${$thumbnail}.jpg')`};
+    background-size: contain;
 
     @media (max-width: 1515px) {
         max-width: 32%;
