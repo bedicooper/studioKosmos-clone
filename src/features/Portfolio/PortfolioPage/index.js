@@ -1,4 +1,5 @@
-import { Header, ProjectsWrapper, Tile, TileBckgrd, TileTitle } from "../styled";
+import { NavLink } from "react-router-dom";
+import { Header, ProjectsWrapper, Tile, TileTitle } from "../styled";
 import projects from "../projects";
 
 export default () => (
@@ -6,7 +7,7 @@ export default () => (
         <Header>PROJEKTY/REALIZACJE</Header>
         <ProjectsWrapper>
         {projects.map(project =>
-            <Tile $thumbnail={project.thumbnail}><TileTitle>{project.title.toUpperCase()}</TileTitle></Tile>
+            <Tile $thumbnail={project.thumbnail}><TileTitle as={NavLink} to={`/projekt/${project.id}`}>{project.title.toUpperCase()}</TileTitle></Tile>
         )}
         </ProjectsWrapper>
     </>

@@ -3,9 +3,14 @@ import Header from './Header';
 import Footer from './Footer';
 import { MainContainer } from './MainContainer';
 import { Wrapper } from './Wrapper/Wrapper';
-import { toHome, toPortfolio, toContact, toAbout, toAuthor } from './routes';
+import { toHome, toPortfolio, toContact, toAbout, toAuthor, toHotels, toAparments, toHouses, toOffice } from './routes';
 import HomePage from './features/HomePage';
 import PortfolioPage from './features/Portfolio/PortfolioPage';
+import AparmentsPage from './features/Portfolio/PortfolioPage/AparmentsPage';
+import HousesPage from './features/Portfolio/PortfolioPage/HousesPage';
+import OfficePage from './features/Portfolio/PortfolioPage/OfficePage';
+import HotelsPage from './features/Portfolio/PortfolioPage/HotelsPage';
+import ProjectPage from './features/Portfolio/ProjectPage';
 import AboutPage from './features/AboutPage';
 import ContactPage from './features/ContactPage';
 import AuthorPage from './features/AuthorPage';
@@ -17,11 +22,26 @@ function App() {
         <Header />
         <Wrapper>
           <Switch>
+            <Route path="/projekt/:id">
+              <ProjectPage />
+            </Route>
             <Route path={toHome()}>
               <HomePage />
             </Route>
             <Route path={toPortfolio()}>
               <PortfolioPage />
+            </Route>
+            <Route path={toAparments()}>
+              <AparmentsPage />
+            </Route>
+            <Route path={toHouses()}>
+              <HousesPage />
+            </Route>
+            <Route path={toOffice()}>
+              <OfficePage />
+            </Route>
+            <Route path={toHotels()}>
+              <HotelsPage />
             </Route>
             <Route path={toAbout()}>
               <AboutPage />

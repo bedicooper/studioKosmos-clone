@@ -9,5 +9,5 @@ export default [
     {title: 'ratibora', thumbnail:'ratibora-front', type:'hotel', id:4},
     {title: 'izabelin', thumbnail:'izabelin-front', type:'jedno', id:3},
     {title: 'dachowa', thumbnail:'dachowa-front', type:'jedno', id:2},
-    {title: 'piłsudskiego', thumbnail:'pilsudskiego-front', type:'biuro', id:1},
+    {title: 'piłsudskiego', thumbnail:'pilsudskiego-front', type:'hotel', id:1},
 ];

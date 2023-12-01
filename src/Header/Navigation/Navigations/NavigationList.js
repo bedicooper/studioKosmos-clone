@@ -1,7 +1,7 @@
 import { Button, ExpandedItem, ExpandedList, StyledItem, StyledNavLink } from "../styled";
 import ChevronDownIcon from "./ChevronDownIcon";
 import { useCollapsableNavigation } from "./useCollapsableNavigation";
-import { toAbout, toContact } from "../../../routes";
+import { toAbout, toAparments, toContact, toHotels, toHouses, toOffice, toPortfolio } from "../../../routes";
 
 export default () => {
 
@@ -13,7 +13,9 @@ export default () => {
     return (
         <>
             <StyledItem>
-                projekty/realizacje
+                <StyledNavLink to={toPortfolio()}>
+                    projekty/realizacje
+                </StyledNavLink>
                 <Button $expand={expand.projects} onClick={toggleProjects}>
                     <ChevronDownIcon />
                 </Button>
@@ -21,10 +23,10 @@ export default () => {
             {
                 expand.projects &&
                 <ExpandedList>
-                    <ExpandedItem>— wielorodzinne</ExpandedItem>
-                    <ExpandedItem>— jednorodzinne</ExpandedItem>
-                    <ExpandedItem>— biurowce</ExpandedItem>
-                    <ExpandedItem>— hotele</ExpandedItem>
+                    <ExpandedItem><StyledNavLink to={toAparments()}>— wielorodzinne</StyledNavLink></ExpandedItem>
+                    <ExpandedItem><StyledNavLink to={toHouses()}>— jednorodzinne</StyledNavLink></ExpandedItem>
+                    <ExpandedItem><StyledNavLink to={toOffice()}>— biurowce</StyledNavLink></ExpandedItem>
+                    <ExpandedItem><StyledNavLink to={toHotels()}>— hotele</StyledNavLink></ExpandedItem>
                     <ExpandedItem>— wnętrza komercyjne</ExpandedItem>
                 </ExpandedList>}
             <StyledItem>nagrody/publikacje</StyledItem>

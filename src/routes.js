@@ -1,5 +1,9 @@
 export const toHome = () => "/home";
 export const toPortfolio = () => "/portfolio";
+export const toAparments = () => "/wielorodzinne";
+export const toHouses = () => "/jednorodzinne";
+export const toOffice = () => "/biura";
+export const toHotels = () => "/hotele";
 export const toAbout = () => "/o-nas";
 export const toContact = () => "/kontakt";
 export const toAuthor = () => "/autor";
