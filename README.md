@@ -16,18 +16,25 @@ _Newest additions are in **bold**_
 | :---:         | :---:           | :---:               | :---:            |
 | Google Fonts  | Normalize CSS   | ES6+                | create-react-app |
 |               | flex            |                     | Webpack          |
-|               | **media queries** |                   | Babel            |
+|               | media queries   |                     | Babel            |
 |               |                 |                     | React DOM        |
 |               |                 |                     | Styled Components|
-|               |                 |                     | **useState hook**|
-|               |                 |                     | **React Router** |
+|               |                 |                     | React Router     |
+|               |                 |                     | useState hook    |
+|               |                 |                     | **custom hooks** |
+|               |                 |                     | **useParams**    |
 
 ## What's inside?
 I'm practicing my dev skills  by building a clone of real website. Well, maybe just part of the website, not ALL of it, we will see. :wink:
 
 I've deciced to start the clone without Redux and Saga, maybe I will use them in future, more extensive versions. 
 
-### What's new? _v.0.1.1_
+### What's new? _v.0.2.0_
+**0.2.0.**
+Added a Protfolio page with gallery of projects. Most of Navigation links are now active, either showing all projects or a list filterd by project type.
+I've also added a ProjectPage that renders information about selected design based on useParams value.
+Added pages with contact and about us and linked them in navigation.
+
 **0.1.1.**
 Added media queries for screens narrower than 767px.
 
