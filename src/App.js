@@ -22,7 +22,7 @@ function App() {
         <Header />
         <Wrapper>
           <Switch>
-            <Route path="/projekt/:id">
+            <Route path="/projekt/:title">
               <ProjectPage />
             </Route>
             <Route path={toHome()}>
